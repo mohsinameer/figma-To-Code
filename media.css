@@ -1,0 +1,130 @@
+@media only screen and (max-width: 992px) {
+    header {
+        padding: 10px 15px 10px 30px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-left {
+        width: 90%;
+    }
+
+    .hero-left>h1 {
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        background-size: 63%;
+    }
+
+    .hero-left>p {
+        width: 386px;
+        padding: 18px 0 15px 0;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 20px;
+    }
+
+    .hero-left>ul li {
+        font-family: Inter;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .hero-btn-row button {
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    /* Hero Right  */
+
+    .hero-right {
+        width: 95%;
+    }
+
+    .hero-right-form {
+        width: 100%;
+    }
+
+    .form {
+        width: 370px;
+        height: 376px;
+    }
+
+    .hero-right-form {
+        margin-top: 15px;
+        height: 420px;
+    }
+
+    /* Gain  */
+    .gain {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+
+    }
+
+    /* Highlight Section  */
+
+    .career-mid {
+        padding: 30px 15px;
+    }
+
+    .highlight-mid {
+        padding: 30px 15px;
+    }
+
+    .highlight-box {
+        width: 100%;
+    }
+
+    .highlight-box h4 {
+        font-size: 20px;
+    }
+
+    .highlight-box p {
+        font-size: 14px;
+    }
+
+    .highlight-btn button {
+        font-size: 16px;
+    }
+
+    .highlight-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+/* Career Section  */
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    nav>a:first-child button span {
+        display: none;
+    }
+
+    nav>a:first-child button {
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    nav>a:first-child button i {
+        font-size: 30px;
+    }
+
+}
